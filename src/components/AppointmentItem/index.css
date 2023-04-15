@@ -1,0 +1,48 @@
+.item-container {
+  list-style-type: none;
+  margin-right: 15px;
+  border: 2px solid #b5b7c4;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+@media screen and (max-width: 576px) {
+  .item-container {
+    width: 100%;
+  }
+}
+
+.appointment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #171f46;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.star-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.star-img {
+  height: 22px;
+  width: 22px;
+}
+
+.date {
+  color: #b5b7c4;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
